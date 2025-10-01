@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Michael Zhanay <michael20zhanay@yahoo.com>"]
+channels = ["conda-forge"]
+name = "demo"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.13.*"
+click = "8.2.1.*"
+fastapi = "0.116.1.*"
